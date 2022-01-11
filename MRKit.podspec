@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     # s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64, x86_64, i386' }
     # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64, x86_64, i386' }
   
-    s.ios.vendored_frameworks = "AllXCFramworks/MRKit.xcframework"
+    s.ios.vendored_frameworks = "MRKit.xcframework"
   
   
   end
