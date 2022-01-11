@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "MRKit",
-            url:"https://github.com/prefmemahendra/MRKit/releases/download/v-1.0.0/MRKit.xcframework.zip",
+            url:"https://github.com/prefmemahendra/MRKit/releases/download/v-1.0.1/MRKit.xcframework.zip",
             checksum: "138769ec8f4fc694136f1a70b8b96b390b9ff596b31292fa1260902bf6598fd7"
         )
     ]
